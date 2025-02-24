@@ -31,6 +31,15 @@
   python3Packages.pip
   nodejs
   git
+
+  # Java's stuff
+
+  openjdk21  # OpenJDK 21 (Latest LTS)
+  # or openjdk17, openjdk11 if you need older versions
+  jetbrains.idea-community-src      # IntelliJ IDEA community 
+  gradle                        # Gradle
+  maven                         # Maven
+  spring-boot-cli               # Spring Boot CLI
   
   ];
 

@@ -20,7 +20,6 @@
   packages = [inputs.home-manager.packages.${pkgs.system}.default];
   };
 
-  home-manager.users.eliasmontan = 
-    import ../../../home/eliasmontan${config.networking.hostName}.nix;
+  home-manager.users.eliasmontan = import ../../../home/eliasmontan/${config.networking.hostName}.nix;
 
 }

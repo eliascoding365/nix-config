@@ -51,6 +51,15 @@
         modules = [./home/eliasmontan/eliasmontan-host.nix];
       };
     };
+
+    nixosConfigurations = {
+      nixos = nixpkgs.lib.nixosSystem {
+      specialArgs = {inherit inputs outputs;};
+      modules = [./hosts/eliasmontan-host];
+  };
+};
+
+
   };
 }
 

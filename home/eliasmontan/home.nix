@@ -12,7 +12,7 @@
   home.username = lib.mkDefault "elias-montan";
   home.homeDirectory = lib.mkDefault "/home/${config.home.username}";
 
-  This value determines the Home Manager release that your configuration is
+  # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.
   #

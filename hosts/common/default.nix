@@ -1,5 +1,6 @@
 # Common configuration for all hosts
 {
+  pkgs,
   lib,
   inputs,
   outputs,
@@ -55,4 +56,5 @@
       ((lib.filterAttrs (_: lib.isType "flake")) inputs);
     nixPath = ["/etc/nix/path"];
   };
+  users.defaultUserShell = pkgs.fish;
 }

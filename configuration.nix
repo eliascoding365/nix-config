@@ -106,7 +106,11 @@
    vim 
    kitty  
    wofi  
-   git  
+   git 
+   spotify
+   vscode
+   waybar 
+   font-awesome
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
